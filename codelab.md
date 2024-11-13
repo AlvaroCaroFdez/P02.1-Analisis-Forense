@@ -599,7 +599,7 @@ La herramienta utilizada genera un archivo, en formato .mem. Este archivo contie
 
 Para adquirir los hashs se utiliza la aplicación HashMyFiles. Aquí adjunto un enlace al documento .mem:
 
-[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1SMXNL6gENe0KiHqHwjHQavzbVz-wZMfL/view?usp=drive_link)
+[Enlace a fichero .mem](https://drive.google.com/file/d/1PtL_8Kc-jqdDfubbxKT6qI4jD8lDN3z1/view?usp=drive_link)
 
 
 <br>
