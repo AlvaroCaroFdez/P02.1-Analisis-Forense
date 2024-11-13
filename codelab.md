@@ -145,6 +145,71 @@ Aquí adjunto un enlace al documento de texto:
 | :---- | :---- |
 | Nombre del perito | Álvaro Caro Fernández |
 
+
+<br>
+
+
+## Tabla de caché ARP
+### Descripción
+La caché ARP (Address Resolution Protocol) es una tabla que almacena temporalmente las asociaciones entre las direcciones IP y las direcciones MAC en una red local. Este almacenamiento permite a los dispositivos en una red localizar rápidamente otros dispositivos dentro de la misma subred, lo que agiliza la comunicación.
+
+Para obtener detalles de la tabla de cache ARP usaré el comando:
+
+```bash
+arp -a
+```
+
+
+### Captura de la evidencia
+El comando nos genera lo siguiente:
+
+![arp-1](/img/route-print.png)
+
+Aquí adjunto un enlace al documento de texto:
+
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1NtS4rU002crAAefDoJwkhFxgkmgiM8Fi/view?usp=drive_link)
+
+
+<br>
+
+### Acta de adquisición forense
+
+| Número de caso | 01 | Fecha | 13/11/2024 |
+| :---- | :---- | :---- | :---- |
+| **Hora de inicio** | 10:37 | **Lugar** | Departamento IT |
+| **Investigador responsable** | Álvaro Caro Fernández |  |  |
+
+**1.- Identificación del dispositivo**
+
+| Tipo de dispositivo | Máquina comprometida departamento IT |
+| :---- | :---- |
+
+**2.- Método de adquisición**
+
+| Herramienta utilizada | route print |
+| :---- | :---- |
+| **Tipo de adquisición** | Obtener información tabla de enrutamiento |
+
+**3.- Detalles de la evidencia adquirida**
+
+| Nombre del archivo | routeprint.txt |
+| :---- | :---- |
+| **Tamaño del archivo** | 3 KB |
+
+**4.- Hash de la evidencia**
+
+| Algoritmo | MD5 |
+| :---- | :---- |
+| **Valor** | 78c3648c94e7c07b8db3baee237de21c |
+| **Algoritmo** | **SHA-1** |
+| **Valor** | d9ff7f3d8f71716382f664916ecaceace588a3b5 |
+
+**5.- Observaciones**
+
+| Hora de finalización | 10:38 |
+| :---- | :---- |
+| Nombre del perito | Álvaro Caro Fernández |
+
 <br>
 
 ## Disco duro
