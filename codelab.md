@@ -100,7 +100,7 @@ El comando nos genera lo siguiente:
 
 ![routeprint-1](/img/route-print.png)
 
-Aquí adjunto un enlace al documento de texto:
+Para adquirir el hash se utiliza la aplicación HashMyFiles. Aquí adjunto un enlace al documento de texto:
 
 [Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1NtS4rU002crAAefDoJwkhFxgkmgiM8Fi/view?usp=drive_link)
 
@@ -165,7 +165,7 @@ El comando nos genera lo siguiente:
 
 ![arp-1](/img/cache-arp.png)
 
-Aquí adjunto un enlace al documento de texto:
+Para adquirir el hash se utiliza la aplicación HashMyFiles. Aquí adjunto un enlace al documento de texto:
 
 [Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1clPpD4wp_c6mVveCODcFW-bZfBOE80C2/view?usp=drive_link)
 
@@ -228,7 +228,7 @@ El comando nos genera lo siguiente:
 
 ![procesos-1](/img/tasklist.png)
 
-Aquí adjunto un enlace al documento de texto:
+Para adquirir el hash se utiliza la aplicación HashMyFiles. Aquí adjunto un enlace al documento de texto:
 
 [Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/198paUGDh2FVhgG77flJrCqp5TLQvQxNA/view?usp=drive_link)
 
@@ -291,7 +291,7 @@ El comando nos genera lo siguiente:
 
 ![version-1](/img/kernel.png)
 
-Aquí adjunto un enlace al documento de texto:
+Para adquirir el hash se utiliza la aplicación HashMyFiles. Aquí adjunto un enlace al documento de texto:
 
 [Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1zUSrnf8QyQv-nsBmaCob9nC0HzN7FTXm/view?usp=drive_link)
 
@@ -354,7 +354,7 @@ El comando nos genera lo siguiente:
 
 ![infosistema-1](/img/systeminfo.png)
 
-Aquí adjunto un enlace al documento de texto:
+Para adquirir el hash se utiliza la aplicación HashMyFiles. Aquí adjunto un enlace al documento de texto:
 
 [Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1C0V00SfzoAQaPbfDUZQQ2bD_FcFATX7h/view?usp=drive_link)
 
@@ -417,7 +417,7 @@ El siguiente comando muestra los últimos 10 eventos del log del sistema:
 
 ![logs-1](/img/wevtutil.png)
 
-Aquí adjunto un enlace al documento de texto:
+Para adquirir el hash se utiliza la aplicación HashMyFiles. Aquí adjunto un enlace al documento de texto:
 
 [Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1NfneuBLhCO-UmkP99OomUgIv4QozjAUd/view?usp=drive_link)
 
@@ -480,7 +480,7 @@ El siguiente comando muestra los últimos 10 eventos del log del sistema:
 
 ![topologia-1](/img/ipconfig.png)
 
-Aquí adjunto un enlace al documento de texto:
+Para adquirir el hash se utiliza la aplicación HashMyFiles. Aquí adjunto un enlace al documento de texto:
 
 [Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1P5v29iy7Sm5KRRQ9_4UkdUX3llqzrotT/view?usp=drive_link)
 
@@ -582,6 +582,63 @@ Aquí adjunto un enlace al documento de texto:
 **5.- Observaciones**
 
 | Hora de finalización | 11:16 |
+| :---- | :---- |
+| Nombre del perito | Álvaro Caro Fernández |
+
+<br>
+
+## Memoria RAM
+### Descripción herramienta utilizada
+**RamCapturer** es una herramienta para la captura de la memoria RAM en sistemas Windows. Su función principal es realizar un volcado de memoria, lo que te permite capturar toda la memoria volátil (RAM) de la máquina y analizarla posteriormente. Al hacer esto, puedes extraer y analizar datos como registros de sistema, procesos en ejecución, caché de red, contraseñas en texto claro, entre otros elementos que se encuentren en la memoria.
+
+
+### Captura de la evidencia
+La herramienta utilizada genera un archivo, en formato .mem. Este archivo contiene una copia exacta de la memoria RAM en el momento en que se realizó la captura. Una vez se ha realizado la adquisición nos muestra un mensaje como el siguiente:
+
+![memoriaram-1](/img/ram.png)
+
+Para adquirir los hashs se utiliza la aplicación HashMyFiles. Aquí adjunto un enlace al documento .mem:
+
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1SMXNL6gENe0KiHqHwjHQavzbVz-wZMfL/view?usp=drive_link)
+
+
+<br>
+
+### Acta de adquisición forense
+
+| Número de caso | 01 | Fecha | 13/11/2024 |
+| :---- | :---- | :---- | :---- |
+| **Hora de inicio** | 11:46 | **Lugar** | Departamento IT |
+| **Investigador responsable** | Álvaro Caro Fernández |  |  |
+
+**1.- Identificación del dispositivo**
+
+| Tipo de dispositivo | Memoria RAM máquina comprometida departamento IT |
+| :---- | :---- |
+
+**2.- Método de adquisición**
+
+| Herramienta utilizada | Ram Capturer |
+| :---- | :---- |
+| **Tipo de adquisición** | Adquisición memoria RAM |
+
+**3.- Detalles de la evidencia adquirida**
+
+| Nombre del archivo | 20241113.mem |
+| :---- | :---- |
+| **Tamaño del archivo** | 1.048 MB |
+
+**4.- Hash de la evidencia**
+
+| Algoritmo | MD5 |
+| :---- | :---- |
+| **Valor** | f24503b8d726060f67d9c8c40558404e |
+| **Algoritmo** | **SHA-1** |
+| **Valor** | 0e149678de8cb099b95de50e1eeeec3f6bf299d2 |
+
+**5.- Observaciones**
+
+| Hora de finalización | 11:56 |
 | :---- | :---- |
 | Nombre del perito | Álvaro Caro Fernández |
 
