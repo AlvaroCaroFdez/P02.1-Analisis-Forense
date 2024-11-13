@@ -401,6 +401,69 @@ Aquí adjunto un enlace al documento de texto:
 
 <br>
 
+## Logs
+### Descripción
+wevtutil es una herramienta de línea de comandos en Windows diseñada para gestionar los logs de eventos del sistema. Permite ver, consultar, exportar, y borrar eventos en los registros de Windows, así como administrar la configuración de los mismos.
+
+Para obtener los detalles del sistema, usaré el comando:
+
+```bash
+wevtutil qe System /c:10 /f:text
+```
+
+
+### Captura de la evidencia
+El siguiente comando muestra los últimos 10 eventos del log del sistema:
+
+![logs-1](/img/wevtutil.png)
+
+Aquí adjunto un enlace al documento de texto:
+
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1NfneuBLhCO-UmkP99OomUgIv4QozjAUd/view?usp=drive_link)
+
+
+<br>
+
+### Acta de adquisición forense
+
+| Número de caso | 01 | Fecha | 13/11/2024 |
+| :---- | :---- | :---- | :---- |
+| **Hora de inicio** | 12:48 | **Lugar** | Departamento IT |
+| **Investigador responsable** | Álvaro Caro Fernández |  |  |
+
+**1.- Identificación del dispositivo**
+
+| Tipo de dispositivo | Máquina comprometida departamento IT |
+| :---- | :---- |
+
+**2.- Método de adquisición**
+
+| Herramienta utilizada | wevtutil |
+| :---- | :---- |
+| **Tipo de adquisición** | Obtener logs del sistema |
+
+**3.- Detalles de la evidencia adquirida**
+
+| Nombre del archivo | wevtutil.txt |
+| :---- | :---- |
+| **Tamaño del archivo** | 4 KB |
+
+**4.- Hash de la evidencia**
+
+| Algoritmo | MD5 |
+| :---- | :---- |
+| **Valor** | 81582a92c43aaa363b3ebdc88ebc92d2 |
+| **Algoritmo** | **SHA-1** |
+| **Valor** | fa2902fae7a6558d83e847ac2eea06f53d669e46 |
+
+**5.- Observaciones**
+
+| Hora de finalización | 14:24 |
+| :---- | :---- |
+| Nombre del perito | Álvaro Caro Fernández |
+
+<br>
+
 ## Disco duro
 ### Descripción herramienta utilizada
 **FTK Imager** es una herramienta forense utilizada para la adquisición y preservación de evidencia digital en investigaciones de ciberseguridad. Permite crear imágenes exactas bit a bit de discos duros, unidades de almacenamiento y otros dispositivos, asegurando que los datos no se alteren durante el proceso de captura. FTK Imager soporta varios formatos de imagen forense estándar, como E01 y AFF, y ofrece opciones para ver el contenido de un dispositivo sin necesidad de crear una imagen completa de inmediato. Es ampliamente utilizada en investigaciones forenses debido a su fiabilidad y capacidad para mantener la integridad de la evidencia.
