@@ -89,12 +89,13 @@ He decidido usar FTK Imager para la adquisición del disco en esta investigació
 
 
 ### Captura de la evidencia
-La herramienta utilizada nos genera un archivo .html. El archivo generado se muestra como en la siguiente captura:
+La herramienta utilizada nos genera una serie de archivos, uno de ellos en formato E01, que sería la imagen del disco, y un fichero .txt, con toda la información. Una vez se ha realizado la adquisición nos muestra un mensaje como el siguiente:
 
-![triaje-1](/img/Triaje.png)
+![adquisiciondisco-1](/img/adquisicion-disco.png)
 
+Aquí adjunto un enlace al documento de texto:
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1SMXNL6gENe0KiHqHwjHQavzbVz-wZMfL/view?usp=drive_link)
 
-Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos del triaje, como la dirección IP y MAC asociadas, Kernel, procesos, ficheros LOGS.
 
 <br>
 
@@ -102,7 +103,7 @@ Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos d
 
 | Número de caso | 01 | Fecha | 13/11/2024 |
 | :---- | :---- | :---- | :---- |
-| **Hora de inicio** | 10:38 | **Lugar** | Departamento IT |
+| **Hora de inicio** | 10:42 | **Lugar** | Departamento IT |
 | **Investigador responsable** | Álvaro Caro Fernández |  |  |
 
 **1.- Identificación del dispositivo**
