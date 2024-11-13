@@ -401,7 +401,7 @@ Aquí adjunto un enlace al documento de texto:
 
 <br>
 
-## Logs
+## Logs del sistema
 ### Descripción
 wevtutil es una herramienta de línea de comandos en Windows diseñada para gestionar los logs de eventos del sistema. Permite ver, consultar, exportar, y borrar eventos en los registros de Windows, así como administrar la configuración de los mismos.
 
@@ -464,6 +464,70 @@ Aquí adjunto un enlace al documento de texto:
 
 <br>
 
+## Topología de red
+### Descripción
+El comando ipconfig /all en Windows proporciona una visión completa de la configuración de red de todas las interfaces (tanto físicas como virtuales) de la máquina. Es útil para obtener información detallada sobre la configuración de IP, DNS, DHCP, dirección MAC, y más, de cada adaptador de red, lo cual es esencial para diagnosticar problemas de conectividad y analizar la estructura de la red.
+
+Para obtener los detalles de la tipología, usaré el comando mencionado:
+
+```bash
+ipconfig /all
+```
+
+
+### Captura de la evidencia
+El siguiente comando muestra los últimos 10 eventos del log del sistema:
+
+![topologia-1](/img/ipconfig.png)
+
+Aquí adjunto un enlace al documento de texto:
+
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1P5v29iy7Sm5KRRQ9_4UkdUX3llqzrotT/view?usp=drive_link)
+
+
+<br>
+
+### Acta de adquisición forense
+
+| Número de caso | 01 | Fecha | 13/11/2024 |
+| :---- | :---- | :---- | :---- |
+| **Hora de inicio** | 14:26 | **Lugar** | Departamento IT |
+| **Investigador responsable** | Álvaro Caro Fernández |  |  |
+
+**1.- Identificación del dispositivo**
+
+| Tipo de dispositivo | Máquina comprometida departamento IT |
+| :---- | :---- |
+
+**2.- Método de adquisición**
+
+| Herramienta utilizada | ipconfig |
+| :---- | :---- |
+| **Tipo de adquisición** | Obtener información de la topología de red del sistema |
+
+**3.- Detalles de la evidencia adquirida**
+
+| Nombre del archivo | ipconfig.txt |
+| :---- | :---- |
+| **Tamaño del archivo** | 3 KB |
+
+**4.- Hash de la evidencia**
+
+| Algoritmo | MD5 |
+| :---- | :---- |
+| **Valor** | 30be1cfcb763e00ec20b13a77bead819 |
+| **Algoritmo** | **SHA-1** |
+| **Valor** | bcc7953727f8609855664df01673cc67d8a4c8dd |
+
+**5.- Observaciones**
+
+| Hora de finalización | 14:27 |
+| :---- | :---- |
+| Nombre del perito | Álvaro Caro Fernández |
+
+<br>
+
+
 ## Disco duro
 ### Descripción herramienta utilizada
 **FTK Imager** es una herramienta forense utilizada para la adquisición y preservación de evidencia digital en investigaciones de ciberseguridad. Permite crear imágenes exactas bit a bit de discos duros, unidades de almacenamiento y otros dispositivos, asegurando que los datos no se alteren durante el proceso de captura. FTK Imager soporta varios formatos de imagen forense estándar, como E01 y AFF, y ofrece opciones para ver el contenido de un dispositivo sin necesidad de crear una imagen completa de inmediato. Es ampliamente utilizada en investigaciones forenses debido a su fiabilidad y capacidad para mantener la integridad de la evidencia.
@@ -522,4 +586,3 @@ Aquí adjunto un enlace al documento de texto:
 | Nombre del perito | Álvaro Caro Fernández |
 
 <br>
-
