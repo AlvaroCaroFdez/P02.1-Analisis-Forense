@@ -212,6 +212,69 @@ Aquí adjunto un enlace al documento de texto:
 
 <br>
 
+## Procesos
+### Descripción
+El comando tasklist en Windows permite ver una lista de todos los procesos en ejecución en el sistema, proporcionando información básica sobre cada uno. Es similar al administrador de tareas, pero en formato de línea de comandos, lo que lo hace útil para automatización y gestión de procesos en sistemas remotos o sin interfaz gráfica.
+
+Para obtener detalles de la tabla que genera, usaré el comando:
+
+```bash
+tasklist
+```
+
+
+### Captura de la evidencia
+El comando nos genera lo siguiente:
+
+![procesos-1](/img/tasklist.png)
+
+Aquí adjunto un enlace al documento de texto:
+
+[Enlace a documento de texto de la adquisición]()
+
+
+<br>
+
+### Acta de adquisición forense
+
+| Número de caso | 01 | Fecha | 13/11/2024 |
+| :---- | :---- | :---- | :---- |
+| **Hora de inicio** | 10:39 | **Lugar** | Departamento IT |
+| **Investigador responsable** | Álvaro Caro Fernández |  |  |
+
+**1.- Identificación del dispositivo**
+
+| Tipo de dispositivo | Máquina comprometida departamento IT |
+| :---- | :---- |
+
+**2.- Método de adquisición**
+
+| Herramienta utilizada | tasklist |
+| :---- | :---- |
+| **Tipo de adquisición** | Obtener información procesos en el sistema |
+
+**3.- Detalles de la evidencia adquirida**
+
+| Nombre del archivo | procesos.txt |
+| :---- | :---- |
+| **Tamaño del archivo** | 4 KB |
+
+**4.- Hash de la evidencia**
+
+| Algoritmo | MD5 |
+| :---- | :---- |
+| **Valor** | 1624e797148807ac723ebb8389773fde |
+| **Algoritmo** | **SHA-1** |
+| **Valor** | 66d21cd60ef48b9efa87354e56bc69709690e0df |
+
+**5.- Observaciones**
+
+| Hora de finalización | 10:40 |
+| :---- | :---- |
+| Nombre del perito | Álvaro Caro Fernández |
+
+<br>
+
 ## Disco duro
 ### Descripción herramienta utilizada
 **FTK Imager** es una herramienta forense utilizada para la adquisición y preservación de evidencia digital en investigaciones de ciberseguridad. Permite crear imágenes exactas bit a bit de discos duros, unidades de almacenamiento y otros dispositivos, asegurando que los datos no se alteren durante el proceso de captura. FTK Imager soporta varios formatos de imagen forense estándar, como E01 y AFF, y ofrece opciones para ver el contenido de un dispositivo sin necesidad de crear una imagen completa de inmediato. Es ampliamente utilizada en investigaciones forenses debido a su fiabilidad y capacidad para mantener la integridad de la evidencia.
