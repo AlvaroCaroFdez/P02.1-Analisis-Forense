@@ -230,7 +230,7 @@ El comando nos genera lo siguiente:
 
 Aquí adjunto un enlace al documento de texto:
 
-[Enlace a documento de texto de la adquisición]()
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/198paUGDh2FVhgG77flJrCqp5TLQvQxNA/view?usp=drive_link)
 
 
 <br>
