@@ -163,11 +163,11 @@ arp -a
 ### Captura de la evidencia
 El comando nos genera lo siguiente:
 
-![arp-1](/img/route-print.png)
+![arp-1](/img/cache-arp.png)
 
 Aquí adjunto un enlace al documento de texto:
 
-[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1NtS4rU002crAAefDoJwkhFxgkmgiM8Fi/view?usp=drive_link)
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1clPpD4wp_c6mVveCODcFW-bZfBOE80C2/view?usp=drive_link)
 
 
 <br>
@@ -176,7 +176,7 @@ Aquí adjunto un enlace al documento de texto:
 
 | Número de caso | 01 | Fecha | 13/11/2024 |
 | :---- | :---- | :---- | :---- |
-| **Hora de inicio** | 10:37 | **Lugar** | Departamento IT |
+| **Hora de inicio** | 10:38 | **Lugar** | Departamento IT |
 | **Investigador responsable** | Álvaro Caro Fernández |  |  |
 
 **1.- Identificación del dispositivo**
@@ -186,27 +186,27 @@ Aquí adjunto un enlace al documento de texto:
 
 **2.- Método de adquisición**
 
-| Herramienta utilizada | route print |
+| Herramienta utilizada | arp -a |
 | :---- | :---- |
-| **Tipo de adquisición** | Obtener información tabla de enrutamiento |
+| **Tipo de adquisición** | Obtener información tabla de caché |
 
 **3.- Detalles de la evidencia adquirida**
 
-| Nombre del archivo | routeprint.txt |
+| Nombre del archivo | cache-arp.txt |
 | :---- | :---- |
-| **Tamaño del archivo** | 3 KB |
+| **Tamaño del archivo** | 1 KB |
 
 **4.- Hash de la evidencia**
 
 | Algoritmo | MD5 |
 | :---- | :---- |
-| **Valor** | 78c3648c94e7c07b8db3baee237de21c |
+| **Valor** | 0fbd85d9c80a0d59b0a5116e9ff9ebb0 |
 | **Algoritmo** | **SHA-1** |
-| **Valor** | d9ff7f3d8f71716382f664916ecaceace588a3b5 |
+| **Valor** | 99cf2171ce8e564527f3bd6b6c0862a1cab4ca95 |
 
 **5.- Observaciones**
 
-| Hora de finalización | 10:38 |
+| Hora de finalización | 10:39 |
 | :---- | :---- |
 | Nombre del perito | Álvaro Caro Fernández |
 
