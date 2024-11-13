@@ -275,6 +275,69 @@ Aquí adjunto un enlace al documento de texto:
 
 <br>
 
+## Kernel
+### Descripción
+El kernel es el núcleo del sistema operativo que gestiona la comunicación entre el hardware y el software. En Windows, el kernel actúa como el componente principal que coordina los recursos del sistema (procesador, memoria, dispositivos de entrada/salida, etc.) y facilita la ejecución de procesos y la comunicación entre ellos.
+
+Para obtener detalles de la versión del kernel, usaré el comando:
+
+```bash
+ver
+```
+
+
+### Captura de la evidencia
+El comando nos genera lo siguiente:
+
+![version-1](/img/kernel.png)
+
+Aquí adjunto un enlace al documento de texto:
+
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1zUSrnf8QyQv-nsBmaCob9nC0HzN7FTXm/view?usp=drive_link)
+
+
+<br>
+
+### Acta de adquisición forense
+
+| Número de caso | 01 | Fecha | 13/11/2024 |
+| :---- | :---- | :---- | :---- |
+| **Hora de inicio** | 10:40 | **Lugar** | Departamento IT |
+| **Investigador responsable** | Álvaro Caro Fernández |  |  |
+
+**1.- Identificación del dispositivo**
+
+| Tipo de dispositivo | Máquina comprometida departamento IT |
+| :---- | :---- |
+
+**2.- Método de adquisición**
+
+| Herramienta utilizada | ver |
+| :---- | :---- |
+| **Tipo de adquisición** | Obtener versión del kernel del sistema |
+
+**3.- Detalles de la evidencia adquirida**
+
+| Nombre del archivo | ver.txt |
+| :---- | :---- |
+| **Tamaño del archivo** | 1 KB |
+
+**4.- Hash de la evidencia**
+
+| Algoritmo | MD5 |
+| :---- | :---- |
+| **Valor** | 082f2e97e670228e3b323c6a3a874f40 |
+| **Algoritmo** | **SHA-1** |
+| **Valor** | e50760edb5e88385449a44818f5726e5beed7aab |
+
+**5.- Observaciones**
+
+| Hora de finalización | 10:41 |
+| :---- | :---- |
+| Nombre del perito | Álvaro Caro Fernández |
+
+<br>
+
 ## Disco duro
 ### Descripción herramienta utilizada
 **FTK Imager** es una herramienta forense utilizada para la adquisición y preservación de evidencia digital en investigaciones de ciberseguridad. Permite crear imágenes exactas bit a bit de discos duros, unidades de almacenamiento y otros dispositivos, asegurando que los datos no se alteren durante el proceso de captura. FTK Imager soporta varios formatos de imagen forense estándar, como E01 y AFF, y ofrece opciones para ver el contenido de un dispositivo sin necesidad de crear una imagen completa de inmediato. Es ampliamente utilizada en investigaciones forenses debido a su fiabilidad y capacidad para mantener la integridad de la evidencia.
