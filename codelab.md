@@ -338,6 +338,69 @@ Aquí adjunto un enlace al documento de texto:
 
 <br>
 
+## Systeminfo
+### Descripción
+Este comando muestra un informe detallado sobre la configuración del sistema, proporcionando información clave sobre el hardware, el sistema operativo, y la red. Es útil para obtener rápidamente una visión completa del sistema, especialmente en tareas de administración y diagnóstico de problemas
+
+Para obtener los detalles del sistema, usaré el comando:
+
+```bash
+systeminfo
+```
+
+
+### Captura de la evidencia
+El comando nos genera lo siguiente:
+
+![infosistema-1](/img/systeminfo.png)
+
+Aquí adjunto un enlace al documento de texto:
+
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1C0V00SfzoAQaPbfDUZQQ2bD_FcFATX7h/view?usp=drive_link)
+
+
+<br>
+
+### Acta de adquisición forense
+
+| Número de caso | 01 | Fecha | 13/11/2024 |
+| :---- | :---- | :---- | :---- |
+| **Hora de inicio** | 10:41 | **Lugar** | Departamento IT |
+| **Investigador responsable** | Álvaro Caro Fernández |  |  |
+
+**1.- Identificación del dispositivo**
+
+| Tipo de dispositivo | Máquina comprometida departamento IT |
+| :---- | :---- |
+
+**2.- Método de adquisición**
+
+| Herramienta utilizada | systeminfo |
+| :---- | :---- |
+| **Tipo de adquisición** | Obtener información del sistema |
+
+**3.- Detalles de la evidencia adquirida**
+
+| Nombre del archivo | systeminfo.txt |
+| :---- | :---- |
+| **Tamaño del archivo** | 3 KB |
+
+**4.- Hash de la evidencia**
+
+| Algoritmo | MD5 |
+| :---- | :---- |
+| **Valor** | b9e61359ba30bdf4649e27e30c52d7cd |
+| **Algoritmo** | **SHA-1** |
+| **Valor** | 6d68f4f2a7b97497314b1c602b210dc2da153184 |
+
+**5.- Observaciones**
+
+| Hora de finalización | 10:42 |
+| :---- | :---- |
+| Nombre del perito | Álvaro Caro Fernández |
+
+<br>
+
 ## Disco duro
 ### Descripción herramienta utilizada
 **FTK Imager** es una herramienta forense utilizada para la adquisición y preservación de evidencia digital en investigaciones de ciberseguridad. Permite crear imágenes exactas bit a bit de discos duros, unidades de almacenamiento y otros dispositivos, asegurando que los datos no se alteren durante el proceso de captura. FTK Imager soporta varios formatos de imagen forense estándar, como E01 y AFF, y ofrece opciones para ver el contenido de un dispositivo sin necesidad de crear una imagen completa de inmediato. Es ampliamente utilizada en investigaciones forenses debido a su fiabilidad y capacidad para mantener la integridad de la evidencia.
