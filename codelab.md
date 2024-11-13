@@ -39,14 +39,12 @@ Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos d
 | **Investigador responsable** | Álvaro Caro Fernández |  |  |
 
 <br>
-<br>
 
 **1.- Identificación del dispositivo**
 
 | Tipo de dispositivo | Máquina comprometida departamento IT |
 | :---- | :---- |
 
-<br>
 <br>
 
 **2.- Método de adquisición**
@@ -56,7 +54,6 @@ Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos d
 | **Tipo de adquisición** | Triaje máquina |
 
 <br>
-<br>
 
 **3.- Detalles de la evidencia adquirida**
 
@@ -64,7 +61,6 @@ Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos d
 | :---- | :---- |
 | **Tamaño del archivo** | 574 KB |
 
-<br>
 <br>
 
 **4.- Hash de la evidencia**
@@ -76,11 +72,9 @@ Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos d
 | **Valor** | b7740b3375178a4787985bb86a8ba13baf2ac870 |
 
 <br>
-<br>
 
 **5.- Observaciones**
 
 | Hora de finalización | 10:37 |
 | :---- | :---- |
 | Nombre del perito | Álvaro Caro Fernández |
-| :---- | :---- |
