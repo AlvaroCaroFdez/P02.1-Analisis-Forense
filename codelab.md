@@ -81,6 +81,72 @@ Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos d
 | :---- | :---- |
 | Nombre del perito | Álvaro Caro Fernández |
 
+<br>
+
+
+## Tabla de enrutamiento
+### Descripción
+La tabla de enrutamiento es una estructura clave en redes que guía cómo y hacia dónde deben dirigirse los paquetes de datos. Es una lista organizada que contiene rutas de red específicas, cada una con información sobre destinos de red y las rutas para alcanzarlos. Esta tabla es utilizada por dispositivos como routers y sistemas operativos para decidir el mejor camino que un paquete de datos debe seguir desde su origen hasta su destino final en la red.
+
+Para obtener detalles de la tabla de enrutamiento usaré el comando:
+
+```bash
+route print
+```
+
+
+### Captura de la evidencia
+El comando nos genera lo siguiente:
+
+![routeprint-1](/img/route-print.png)
+
+Aquí adjunto un enlace al documento de texto:
+
+[Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1NtS4rU002crAAefDoJwkhFxgkmgiM8Fi/view?usp=drive_link)
+
+
+<br>
+
+### Acta de adquisición forense
+
+| Número de caso | 01 | Fecha | 13/11/2024 |
+| :---- | :---- | :---- | :---- |
+| **Hora de inicio** | 10:37 | **Lugar** | Departamento IT |
+| **Investigador responsable** | Álvaro Caro Fernández |  |  |
+
+**1.- Identificación del dispositivo**
+
+| Tipo de dispositivo | Máquina comprometida departamento IT |
+| :---- | :---- |
+
+**2.- Método de adquisición**
+
+| Herramienta utilizada | route print |
+| :---- | :---- |
+| **Tipo de adquisición** | Obtener información tabla de enrutamiento |
+
+**3.- Detalles de la evidencia adquirida**
+
+| Nombre del archivo | routeprint.txt |
+| :---- | :---- |
+| **Tamaño del archivo** | 3 KB |
+
+**4.- Hash de la evidencia**
+
+| Algoritmo | MD5 |
+| :---- | :---- |
+| **Valor** | 78c3648c94e7c07b8db3baee237de21c |
+| **Algoritmo** | **SHA-1** |
+| **Valor** | d9ff7f3d8f71716382f664916ecaceace588a3b5 |
+
+**5.- Observaciones**
+
+| Hora de finalización | 10:38 |
+| :---- | :---- |
+| Nombre del perito | Álvaro Caro Fernández |
+
+<br>
+
 ## Disco duro
 ### Descripción herramienta utilizada
 **FTK Imager** es una herramienta forense utilizada para la adquisición y preservación de evidencia digital en investigaciones de ciberseguridad. Permite crear imágenes exactas bit a bit de discos duros, unidades de almacenamiento y otros dispositivos, asegurando que los datos no se alteren durante el proceso de captura. FTK Imager soporta varios formatos de imagen forense estándar, como E01 y AFF, y ofrece opciones para ver el contenido de un dispositivo sin necesidad de crear una imagen completa de inmediato. Es ampliamente utilizada en investigaciones forenses debido a su fiabilidad y capacidad para mantener la integridad de la evidencia.
@@ -137,3 +203,6 @@ Aquí adjunto un enlace al documento de texto:
 | Hora de finalización | 11:16 |
 | :---- | :---- |
 | Nombre del perito | Álvaro Caro Fernández |
+
+<br>
+
