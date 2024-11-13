@@ -27,7 +27,9 @@ La herramienta utilizada nos genera un archivo .html. El archivo generado se mue
 ![triaje-1](/img/Triaje.png)
 
 
-Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos del triaje, como la dirección IP y MAC asociadas, Kernel, procesos, ficheros LOGS.
+Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos del triaje, como la dirección IP y MAC asociadas, Kernel, procesos, ficheros LOGS:
+
+[Enlace a documento de triaje](https://drive.google.com/file/d/1CSjlRRftBKXiW_6bxatyTF9ngxTMeUE7/view?usp=drive_link)
 
 <br>
 
@@ -76,5 +78,60 @@ Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos d
 **5.- Observaciones**
 
 | Hora de finalización | 10:37 |
+| :---- | :---- |
+| Nombre del perito | Álvaro Caro Fernández |
+
+## Disco duro
+### Descripción herramienta utilizada
+**FTK Imager** es una herramienta forense utilizada para la adquisición y preservación de evidencia digital en investigaciones de ciberseguridad. Permite crear imágenes exactas bit a bit de discos duros, unidades de almacenamiento y otros dispositivos, asegurando que los datos no se alteren durante el proceso de captura. FTK Imager soporta varios formatos de imagen forense estándar, como E01 y AFF, y ofrece opciones para ver el contenido de un dispositivo sin necesidad de crear una imagen completa de inmediato. Es ampliamente utilizada en investigaciones forenses debido a su fiabilidad y capacidad para mantener la integridad de la evidencia.
+
+He decidido usar FTK Imager para la adquisición del disco en esta investigación forense porque es una herramienta confiable y ampliamente utilizada en el campo de la ciberseguridad para crear imágenes forenses de discos duros. Como he mencionado anteriormente, permite crear imágenes bit a bit.
+
+
+### Captura de la evidencia
+La herramienta utilizada nos genera un archivo .html. El archivo generado se muestra como en la siguiente captura:
+
+![triaje-1](/img/Triaje.png)
+
+
+Aquí adjunto el enlace al .html completo, donde se encuentran todos los datos del triaje, como la dirección IP y MAC asociadas, Kernel, procesos, ficheros LOGS.
+
+<br>
+
+### Acta de adquisición forense
+
+| Número de caso | 01 | Fecha | 13/11/2024 |
+| :---- | :---- | :---- | :---- |
+| **Hora de inicio** | 10:38 | **Lugar** | Departamento IT |
+| **Investigador responsable** | Álvaro Caro Fernández |  |  |
+
+**1.- Identificación del dispositivo**
+
+| Tipo de dispositivo | Disco duro máquina comprometida departamento IT |
+| :---- | :---- |
+
+**2.- Método de adquisición**
+
+| Herramienta utilizada | FTK Imager |
+| :---- | :---- |
+| **Tipo de adquisición** | Adquisición imagen disco duro |
+
+**3.- Detalles de la evidencia adquirida**
+
+| Nombre del archivo | adquisicion-disco-duro.E01 adquisicion-disco-duro.E02 adquisicion-disco-duro.E03 adquisicion-disco-duro.E04 |
+| :---- | :---- |
+| **Tamaño del archivo** | 1.535 MB |
+
+**4.- Hash de la evidencia**
+
+| Algoritmo | MD5 |
+| :---- | :---- |
+| **Valor** | f4974335070bd9bb776687f6c128dbcc |
+| **Algoritmo** | **SHA-1** |
+| **Valor** | 518b44435dc6569336992f1fc5dd4438ef932d24 |
+
+**5.- Observaciones**
+
+| Hora de finalización | 11:16 |
 | :---- | :---- |
 | Nombre del perito | Álvaro Caro Fernández |
