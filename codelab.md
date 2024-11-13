@@ -94,6 +94,7 @@ La herramienta utilizada nos genera una serie de archivos, uno de ellos en forma
 ![adquisiciondisco-1](/img/adquisicion-disco.png)
 
 Aquí adjunto un enlace al documento de texto:
+
 [Enlace a documento de texto de la adquisición](https://drive.google.com/file/d/1SMXNL6gENe0KiHqHwjHQavzbVz-wZMfL/view?usp=drive_link)
 
 
