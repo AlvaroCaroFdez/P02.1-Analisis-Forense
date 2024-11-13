@@ -5,6 +5,9 @@ categories: codelab,markdown
 environments: Web
 status: Publicado
 
+### [Enlace a Carpeta Google Drive](https://drive.google.com/drive/folders/1zPy2OyZY_nypuhcH-o6UqHmjm-z8PcyY?usp=drive_link)
+
+
 ## Introducción
 En este proyecto, como miembros del equipo de respuesta a incidentes (CSIRT) de la empresa, se nos ha asignaod la investigación de un incidente de seguridad que ha comprometido una de las máquinas del departamento de IT. La tarea consistirá en aplicar la metodología de análisis forense para recopilar, almacenar y analizar evidencias de forma que se conserve su integridad y se mantenga una trazabilidad completa del proceso. La finalidad es proporcionar un informe técnico detallado sobre las conclusiones del análisis, que sirva tanto para la resolución del incidente como para la mejora continua de las medidas de seguridad de la organización.
 
